@@ -1,6 +1,7 @@
 # Flail
 
-This project is part of **The Armourer** series, however this project is more of a dump, a publication-like, repository for what I think is cool tinkering I do.
+This project is part of **The Armourer** series, however this project is more of a dump, a publication-like, repository for what I think is cool tinkering I do.  
+I would like to note, that this is **purely for educational purposes**, and I do not condone any harm towards any entity - alive or otherwise.
 
 ---
 ## Introduction
