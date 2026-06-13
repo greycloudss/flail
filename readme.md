@@ -18,7 +18,7 @@ Hi, I guess this is just a repo where I drop <u>lightly modified malware</u> bec
 
 
 ### Failures
-Here I'll document [my failures](misc/main.md) (at least the notable ones), basically tinkering that did not succeed :(
+Here I'll document [my failures](failures/main.md) (at least the notable ones), basically tinkering that did not succeed :(
 
 ---
 ## License
