@@ -10,10 +10,13 @@ Hi, I guess this is just a repo where I drop <u>lightly modified malware</u> bec
 ## The list
 
 ### [Sleeper](sleeper/sleeper.md)
-[Sleeper](sleeper/sleeper.md) (<- the writeup) is a tiny ish 2 stage malware abusing telnets critical vulnerability ([CVE-2026-24061](https://nvd.nist.gov/vuln/detail/cve-2026-24061)). This vulnerability, once abused, grants the attacker instant root acces, meaning it works as initial access and a privilege escalation vulnerability. As this is a 2 stage software it consists of: a reactive credential harvester and the listener. 
+[Sleeper](sleeper/sleeper.md) (<- the writeup) is a tiny ish 2 stage malware abusing telnets critical vulnerability ([CVE-2026-24061](https://nvd.nist.gov/vuln/detail/cve-2026-24061)). This vulnerability, once abused, grants the attacker instant root acces, meaning it works as initial access and a privilege escalation vulnerability. As this is a 2 stage software it consists of: a reactive credential harvester and the listener. This is targeting Linux machines 🐧
 
 ### [Dingus](dingus/dingus.md)
-[Dingus](dingus/dingus.md) (<- the writeup) is a shellcode injection malware PoC, it has some obfuscation, positional keying, raw syscalls with obfuscated yet hardcoded SSNs etc. It's written in C++, hopefully for the next PoCs I drop they will be written in C.
+[Dingus](dingus/dingus.md) (<- the writeup) is a shellcode injection malware PoC, it has some obfuscation, positional keying, raw syscalls with obfuscated yet hardcoded SSNs etc. It's written in C++, hopefully for the next PoCs I drop they will be written in C. This is targeting Windows machines
+
+### [DocuThief](DocuThief/DocuThief.md)
+[DocuThief](DocuThief/DocuThief.md) (<- the writeup) is a harvester malware targeting doc and pdf file formats located in the Downloads directory. It is written in Lua, however it can be compiled, it is targeting using Powershell commands and to find the data to exfiltrate. This malware is designed to use lolbins such as Powershell and Lua, while the listener can be something as simple as netcat. This is targeting Windows machines.
 
 ### [Failures](failures/main.md)
 Here I'll document [my failures](failures/main.md) (at least the notable ones), basically tinkering that did not succeed :(
